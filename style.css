@@ -1,0 +1,48 @@
+body {
+    min-width: 750px;
+}
+
+.blackjack-container{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.game-display{
+    border: 1px solid black;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 400px;
+    padding: 20px;
+    color: white;
+}
+
+#your-box, #dealers-box {
+    border: 1px solid black;
+    padding: 10px;
+    width: 50%;
+}
+
+#your-box img, #dealers-box img{
+    padding: 10px
+}
+
+.buttons, .game-display{ 
+    background-image: url('https://t4.ftcdn.net/jpg/01/84/78/29/240_F_184782920_F0T0Ln1CbzNYEe8iWcoohJTe9I1653cA.jpg') ;
+    background-repeat: none;
+    background-size: cover;
+    padding: 20px;
+}
+
+.score-table {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    padding: 5px;
+}
